@@ -1,5 +1,4 @@
 body {
-    
 }
 
 #banner{
@@ -11,7 +10,11 @@ body {
     padding:30px;
 }
 
-h1{
+.tprincipal{
+    padding-left: 20px;
+}
+
+.tcentral{
     text-align: center;
 }
 
@@ -34,10 +37,6 @@ em strong {
 .beneficios{
     background: #FFFFFF;
     padding: 20px;
-}
-
-h2{
-    text-align: center;
 }
 
 ul{
