@@ -1,3 +1,16 @@
+/*
+Seletores avançados CSS
+
+(>) acessa os filhos de determinado elemento. Por exemplo, para acessar todos os (p) dentro de (main)
+EX: main > p {}
+(+) acessa o primeiro irmão de determinado elemento. Por exemplo, para acessar o primeiro (p) após um (img)
+EX: img + p {}
+(~) acessa todos os irmãos de determinado elemento. Por exemplo, para acessar todos os (p) após um (img)
+EX: img ~ p {}
+(not) acessa os elementos, exceto algum. Por exemplo, para acessar todos os (p) dentro de (main), exceto o (p) que tem (id missao)
+EX: main p:not(#missao) {}
+*/
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
